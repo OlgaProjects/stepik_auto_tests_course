@@ -15,7 +15,7 @@ try:
     input_email.send_keys("supermail_ivanov@gmail.com")
 
     with open('test1.txt', 'w') as file:
-        file.write('test1 for mls 228')
+        file.write('some text for example')
     path = os.getcwd() + '/' + file.name
 
     # current_dir = os.getcwd()
